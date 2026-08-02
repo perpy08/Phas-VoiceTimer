@@ -174,7 +174,7 @@ before giving up and telling you exactly what to install manually.
 
 
 
-1\. Install Python 3.8+ if you don't already have it:
+1\. Install Python 3.8+ or the most latest one (preferable) if you don't already have it:
 
 &#x20;  https://www.python.org/downloads/
 
@@ -182,8 +182,8 @@ before giving up and telling you exactly what to install manually.
 
 
 
-2\. Download the newest release of the app from this repository.
-   Extract Anywhere you'd prefer
+2\. Download the newest/latest release of the app from this repository.
+   > Extract Anywhere you'd prefer
 
 
 
