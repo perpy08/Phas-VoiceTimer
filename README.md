@@ -3,6 +3,7 @@
 This is a Voice activated timer I made to use for phasmophobia
 
 
+
 ========================================
 
 &#x20;VOICE ACTIVATED TIMER
@@ -181,15 +182,14 @@ before giving up and telling you exactly what to install manually.
 
 
 
-2\. Download Timer.py from this repository.
+2\. Download the newest release of the app from this repository.
+   Extract Anywhere you'd prefer
 
 
 
 3\. Run it:
 
-&#x20;      python Timer.py
-
-&#x20;  (or double-click it, depending on your system's file associations)
+&#x20;  double-click it (Timer.exe), depending on your system's file associations
 
 
 
@@ -211,47 +211,6 @@ before giving up and telling you exactly what to install manually.
 
 
 
-
-
-\----------------------------------------
-
-&#x20;BUILDING A STANDALONE .EXE (WINDOWS)
-
-\----------------------------------------
-
-
-
-If you'd rather distribute this as a single .exe that doesn't require
-
-Python to be installed on the end user's machine, you can package it
-
-with PyInstaller:
-
-
-
-&#x20;   pip install pyinstaller pywin32
-
-
-
-&#x20;   python -m PyInstaller --onefile --noconsole --icon=luffy\_icon.ico ^
-
-&#x20;     --hidden-import speech\_recognition --hidden-import pyaudio ^
-
-&#x20;     --hidden-import gtts --hidden-import pyttsx3 ^
-
-&#x20;     --hidden-import pyttsx3.drivers --hidden-import pyttsx3.drivers.sapi5 ^
-
-&#x20;     --hidden-import win32com.client --hidden-import win32comext.shell ^
-
-&#x20;     --hidden-import edge\_tts --collect-all speech\_recognition Timer.py
-
-
-
-The resulting .exe will be in the "dist" folder. It's fully self-
-
-contained -- the app's icon is embedded directly in the script, so no
-
-extra icon file needs to travel alongside it.
 
 
 
@@ -290,16 +249,6 @@ extra icon file needs to travel alongside it.
 &#x20;   installed with pip included (the default python.org installer
 
 &#x20;   includes it; some minimal/embeddable Python builds do not).
-
-
-
-\- "The taskbar icon still looks wrong"
-
-&#x20;   Windows can cache icons per file path. If you rebuilt the .exe with
-
-&#x20;   a new icon and it still shows the old one, try renaming the .exe or
-
-&#x20;   deleting and rebuilding it fresh.
 
 
 
