@@ -183,7 +183,8 @@ before giving up and telling you exactly what to install manually.
 
 
 2\. Download the newest/latest release of the app from this repository.
-   > Extract Anywhere you'd prefer
+   • Latest Release > [**Download**](https://github.com/perpy08/Phas-VoiceTimer/releases/tag/PhasVoiceTimer0.0.1) <
+   -Extract Anywhere you'd prefer
 
 
 
