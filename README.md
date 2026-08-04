@@ -43,10 +43,11 @@ countdown you'd rather not babysit manually).
 
 
 \- Voice-activated start/stop for four different timer types
+- Keybinds incase you prefer that instead of voice activated
 
 \- Spoken countdown milestones (not just a silent visual timer)
 
-\- Small floating "toast" notification window, always on top, semi-transparent
+\- Small floating "toast" notification window, always on top, semi-transparent, click-through
 
 \- Choice of natural-sounding online voices (via Microsoft Edge's TTS) or
 
@@ -54,9 +55,8 @@ countdown you'd rather not babysit manually).
 
 \- Adjustable voice speaking speed
 
-\- Six built-in themes (Default White, Dark Mode, Pastel Green/Pink/Blue/Red)
-
-\- Remembers your microphone, voice, speed, and theme between launches
+\- Built-in themes 
+- Remembers your microphone, voice, speed, and theme between launches
 
 \- Auto-installs its own Python dependencies on first run -- no manual
 
@@ -184,9 +184,9 @@ before giving up and telling you exactly what to install manually.
 
 2\. Download the newest/latest release of the app from this repository.
 
-   • Latest Release > [**Download**](https://github.com/perpy08/Phas-VoiceTimer/releases/tag/PhasVoiceTimer0.0.1) <
+• Latest Release > [**Download**](https://github.com/perpy08/Phas-VoiceTimer/releases#release-PhasVoicTimerV0.0.2) <
 
-   -Extract Anywhere you'd prefer
+\-Extract Anywhere you'd prefer
 
 
 
@@ -211,6 +211,7 @@ before giving up and telling you exactly what to install manually.
 &#x20;  - Click "Start Listen"
 
 &#x20;  - Say any of the voice commands above
+
 
 
 
